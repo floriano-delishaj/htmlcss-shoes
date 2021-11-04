@@ -18,9 +18,10 @@ body {
 }
 
 .selection-menu {
-    position: absolute;
+    position: fixed;
     top: 40px;
     right: 5px;
+    z-index: 1;
 }
 
 .selection-menu a {
